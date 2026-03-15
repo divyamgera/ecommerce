@@ -8,7 +8,6 @@ export const verifyUserAuth = handleAsyncError(async(req,res,next)=>{
   const {token} = req.cookies;
   // console.log(token);
 
-
   if(!token){
     return next(new HandleError("Authentication is Missing! Please login to access resource", 401))
   }
@@ -22,16 +21,12 @@ export const verifyUserAuth = handleAsyncError(async(req,res,next)=>{
 
 
 export const roleBasedAcess = (...roles)=>{
-
   return(req,res, next)=>{
       if(!roles.includes(req.user.role)){
         return next(new HandleError(`Role - ${req.user.role} is not allowed to access the resource`, 403))
       }
       next();
-
-
   }
-
 }
 
 
