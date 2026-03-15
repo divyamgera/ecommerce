@@ -1,0 +1,90 @@
+.secBanner {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainContent {
+  position: relative;
+  border: 1px solid #e6e6e6;
+  z-index: 1 !important;
+}
+
+.content {
+  position: absolute;
+  top: 8%;
+  left: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+.overview {
+  display: flex;
+  flex-direction: column;
+}
+.overview a {
+  text-decoration: none;
+}
+
+.Item {
+  color: #333333;
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.subItem1 {
+  color: #555555;
+  font-size: 14px;
+}
+
+.Img {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.Img:hover {
+  opacity: 0.4;
+}
+
+.shopNow {
+  font-size: 15px;
+  color: #fff;border: none !important;
+ 
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  display: none;
+  cursor: pointer;
+  border-bottom: 2px solid #000 !important;
+}
+
+
+.mainContent:hover .shopNow {
+  color: #000;
+  border-bottom: 2px solid #000;
+  display: block;
+  transition: 0.3s all ease;
+  animation: slide-bottom 1s ease-out forwards;
+}
+
+.mainContent:hover {
+  opacity: 0.7;
+  background-color: #717fe0;
+}
+
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(200%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

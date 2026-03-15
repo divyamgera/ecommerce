@@ -1,0 +1,167 @@
+/* Contact Page CSS */
+
+.contactSec {
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 116px;
+  padding-top: 104px;
+  display: block;
+}
+
+.Contactbox1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(230, 230, 230);
+  border-image: initial;
+  width: 50%;
+  padding: 55px 70px 70px 70px !important;
+}
+
+.ContactHtext {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.5;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.bor8 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(230, 230, 230);
+  border-image: initial;
+  border-radius: 2px;
+}
+
+.ContactEtext {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.Eaddress {
+  width: 100%;
+  height: 50px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1.6923;
+  color: rgb(51, 51, 51);
+  padding-right: 30px;
+  padding-left: 62px;
+  position: relative;
+}
+
+.how-pos4 {
+  position: absolute;
+  top: 15px;
+  left: 28px;
+  pointer-events: none;
+}
+
+.ContactTtext {
+  margin-bottom: 30px;
+}
+
+.textArea {
+  width: 100%;
+  min-height: 199px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1.6923;
+  color: rgb(51, 51, 51);
+  padding: 25px 28px;
+  display: block;
+  outline: none;
+  border: none;
+}
+
+.hov-btn {
+  border-radius: 23px;
+  background-color: rgb(34, 34, 34);
+  width: 100%;
+  height: 46px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.46667;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.Contactbox2 {
+  border: 1px solid #e6e6e6;
+  padding: 30px 93px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.p-b-42 {
+  padding-bottom: 42px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.w-full {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.size-212 {
+  width: calc(100% - 60px);
+  padding-top: 2px;
+}
+
+.size-212 span {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.222222;
+  color: #333;
+}
+
+.pText {
+  max-width: 245px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.666667;
+  padding-top: 18px;
+  color: #717fe0;
+}
+
+.cl6 {
+  color: #888;
+}
+
+.mIcon {
+  width: 60px;
+  color: #222;
+  text-align: center;
+}
+
+.icon {
+  font-size: 25px;
+}
+
+@media screen and (max-width:576px) {
+
+  .row{
+    padding: 0px 15px;
+  }
+
+  .Contactbox2{
+    padding: 30px !important;
+  }
+  
+}

@@ -1,0 +1,103 @@
+.custom-navbar{
+  background:#fff;
+  border-bottom:1px solid #eee;
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+/* NAV LINKS */
+
+.nav-links .nav-link{
+  font-weight:600;
+  padding:10px 15px;
+  color:black;
+}
+
+.nav-links .nav-link:hover{
+  color:#717fe0;
+}
+
+/* ICON AREA */
+
+.nav-icons{
+  display:flex;
+  align-items:center;
+  gap:25px;
+}
+
+/* CART */
+
+.cart-icon{
+  position:relative;
+  font-size:28px;
+  color:black;
+}
+
+.cart-badge{
+  position:absolute;
+  top:-2px;
+  right:-3px;
+  background:#717fe0;
+  color:white;
+  font-size:11px;
+  padding:2px 4px;
+  border-radius:50%;
+}
+
+/* SEARCH */
+
+.search-form{
+  display:flex;
+  align-items:center;
+  border:1px solid #ddd;
+  border-radius:20px;
+  overflow:hidden;
+}
+
+.search-form input{
+  border:none;
+  outline:none;
+  padding:6px 10px;
+}
+
+.search-form button{
+  border:none;
+  background:none;
+  padding:6px 10px;
+  cursor:pointer;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width:992px){
+
+  .nav-links{
+    text-align:center;
+    margin-top:10px;
+  }
+
+  .nav-icons{
+    margin-top:15px;
+    justify-content:center;
+    width:100%;
+  }
+
+}
+
+@media (max-width:576px){
+
+  .search-form input{
+    width:120px;
+  }
+
+  .nav-icons{
+    gap:15px;
+  }
+
+}
+
+
+/* 	E-Commerce Website (MERN Stack)			   
+•  Built a full-stack shopping platform with React, Node.js, Express, MongoDB.
+• Implemented User Authentication, Cloudinary Integration for Images, Cart, and                                Razorpay payment gateway integration. */

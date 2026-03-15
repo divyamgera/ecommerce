@@ -1,0 +1,28 @@
+
+  .star {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+    color: rgb(187, 185, 179) !important;
+    
+  }
+  
+  .star.filled {
+    color: rgb(250, 201, 25) !important; 
+  }
+  
+  .star.empty {
+    color: rgb(187, 185, 179) !important;
+  }
+  
+  .star:hover {
+    transform: scale(1.2); 
+    color: rgb(250, 201, 25) !important; 
+  }
+  
+  .productCardSpan {
+    font-size: 0.9rem;
+    color: rgb(187, 185, 179) !important;
+    margin-left: 0.5rem;
+  }
+  

@@ -1,0 +1,165 @@
+/* About Page CSS */
+
+.bg-img1 {
+  background: url(../assets/bg-01.jpg) no-repeat center center/cover;
+  padding: 92px 15px;
+}
+
+.htext {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Poppins";
+  line-height: 1.1;
+  color: #fff;
+}
+
+.p-t-75 {
+  padding-top: 75px;
+  padding-bottom: 120px;
+  background-color: #fff;
+}
+
+.p-b-148 {
+  padding-bottom: 148px;
+}
+
+.aboutContent1 {
+  padding-right: 85px;
+  padding-top: 7px;
+}
+
+.mtext {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.2;
+  color: #333;
+  padding-bottom: 16px;
+}
+
+.sText {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.7857;
+  color: #888;
+  padding-bottom: 26px;
+}
+
+.mlrAuto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.how-bor1 {
+  position: relative;
+  z-index: 1;
+}
+
+.how-bor1::before {
+  content: "";
+  bottom: -21px;
+  left: -21px;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #ccc;
+}
+
+.hov-img0 {
+  display: block;
+  overflow: hidden;
+}
+
+.hov-img0 img {
+  width: 100%;
+}
+
+.p-b-30 {
+  padding-bottom: 30px;
+}
+
+.aboutContent2 {
+  padding-left: 85px;
+  padding-top: 7px;
+}
+
+.stext2 {
+  font-weight: 300;
+  font-family: "Poppins";
+  font-size: 15px;
+  line-height: 1.7857;
+  color: #888;
+  padding-bottom: 26px;
+}
+
+.bor16 {
+  border-left: 3px solid #e6e6e6;
+  margin-top: 22px;
+  padding-left: 29px;
+  padding-bottom: 9px;
+}
+
+.stext3 {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.666667;
+  color: #888;
+  padding-right: 40px;
+  padding-bottom: 11px;
+}
+
+.stextSp {
+  font-family: "Poppins";
+  font-size: 13px;
+  line-height: 1.6923;
+  color: #555;
+}
+
+.mlrAuto2 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+.hov-bor2 {
+  position: relative;
+  z-index: 1;
+}
+
+.hov-bor2::before {
+  bottom: -21px;
+  right: -21px;
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #ccc;
+}
+
+.reverseD {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width:768px) {
+
+  .mlrAuto{
+    margin: auto 20px;
+  }
+
+  .aboutContent1{
+    padding-right: 0px;
+  }
+
+  .aboutContent2{
+    padding-left: 0px;
+  }
+  
+}

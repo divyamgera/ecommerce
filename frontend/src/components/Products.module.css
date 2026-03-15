@@ -1,0 +1,192 @@
+
+
+.p-b-52{
+padding-bottom:40px;
+}
+
+.productBar{
+gap:20px;
+align-items:center;
+}
+
+.productBar button{
+border:none;
+background:transparent;
+font-size:15px;
+color:#888;
+padding:6px 8px;
+cursor:pointer;
+border-bottom:2px solid transparent;
+}
+
+.productBar button:hover{
+color:#222;
+border-bottom:2px solid #222;
+}
+
+.activeBtn{
+color:#222;
+font-weight:600;
+border-bottom:2px solid #222;
+}
+
+
+
+
+/* PRODUCT ITEM */
+
+.item{
+padding:12px;
+}
+
+/* CARD */
+
+.card{
+background:#fff;
+border-radius:6px;
+overflow:hidden;
+transition:0.3s;
+height:100%;
+display:flex;
+flex-direction:column;
+}
+
+.card:hover{
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* IMAGE AREA */
+
+.imageWrapper{
+position:relative;
+display:block;
+width:100%;
+aspect-ratio:1/1;   /* perfect square */
+overflow:hidden;
+}
+
+.imG{
+width:100%;
+height:100%;
+object-fit:cover;
+transition:transform .4s ease;
+}
+
+.card:hover .imG{
+transform:scale(1.08);
+}
+
+/* ADD TO CART */
+
+.Qview{
+position:absolute;
+bottom:12px;
+left:50%;
+transform:translateX(-50%);
+background:white;
+border:none;
+padding:8px 18px;
+border-radius:20px;
+font-size:14px;
+cursor:pointer;
+opacity:0;
+transition:.3s;
+}
+
+.card:hover .Qview{
+opacity:1;
+}
+
+.Qview:hover{
+background:black;
+color:white;
+}
+
+/* PRODUCT INFO */
+
+.block{
+padding:12px 14px 16px;
+display:flex;
+flex-direction:column;
+gap:6px;
+}
+
+/* RATING */
+
+.rating_container{
+display:flex;
+justify-content:flex-start;
+}
+
+/* NAME + HEART */
+
+.productRow{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:10px;
+}
+
+/* NAME */
+
+.text{
+font-size:15px;
+color:#333;
+text-decoration:none;
+line-height:1.4;
+flex:1;
+}
+
+.text:hover{
+color:#717fe0;
+}
+
+/* PRICE */
+
+.price{
+font-size:16px;
+font-weight:600;
+color:#666;
+}
+
+/* HEART */
+
+.heart{
+width:18px;
+height:18px;
+cursor:pointer;
+}
+
+/* RESPONSIVE */
+
+/* tablet */
+
+@media (max-width:992px){
+
+.text{
+font-size:14px;
+}
+
+.price{
+font-size:15px;
+}
+
+}
+
+/* mobile */
+
+@media (max-width:576px){
+
+.block{
+padding:10px;
+}
+
+.text{
+font-size:13px;
+}
+
+.price{
+font-size:14px;
+}
+
+}

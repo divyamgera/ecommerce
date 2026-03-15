@@ -1,0 +1,97 @@
+/* Footer */
+
+.bgColor {
+  background-color: #222;
+  padding-bottom: 32px;
+  padding-top: 75px;
+}
+
+footer h4 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+.p-b-10 {
+  padding-bottom: 10px;
+}
+
+.stext {
+  color: #b2b2b2;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 1.923;
+}
+
+.stext:hover {
+  color: #717fe0;
+}
+
+footer p {
+  color: #b2b2b2;
+  font-size: 15px;
+  line-height: 1.923;
+}
+
+.mr-15 {
+  color: #b2b2b2;
+  margin-right: 15px;
+}
+.mr-15:hover {
+  color: #717fe0;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+input {
+  display: block;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+form .inputbox {
+  width: 100%;
+  padding-bottom: 4px;
+  border-bottom: 2px solid rgba(204, 204, 204, 0.1);
+}
+
+.subscribeBtn {
+  padding-top: 18px;
+}
+
+.subscribeBtn button {
+  background-color: #717fe0;
+  color: #fff;
+  padding: 13px 30px;
+  font-family: "Poppins-Medium";
+  font-size: 15px;
+  line-height: 1.466667;
+  text-transform: uppercase;
+  border: none;
+  font-size: 15px;
+  border-radius: 30px;
+}
+
+.subscribeBtn button:hover {
+  background-color: #fff;
+  color: #717fe0;
+}
+
+.p-t-40 {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.p-t-40 p {
+  font-size: 15px;
+  color: #888888;
+}
+
+
