@@ -1,6 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import api from "../../app/api";
-
 // import api from "api";
 
 // Creating Order
